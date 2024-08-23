@@ -1,0 +1,200 @@
+
+main{
+    background-image: url("../img/interior3.jpg");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Outfit", sans-serif;
+    color: #402616;
+}
+
+/*Sección de contenido*/
+
+.landing{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffdf5;
+}
+.titleLogo{
+    margin: auto;
+    width: 65%;
+    height: auto;
+    text-align: center;
+}
+.titleLogo h1{
+    font-family: 'Dancing Script',cursive;
+    font-weight: bold;
+    font-size: 120px;
+    margin-bottom: 60px;
+}
+.titleLogo p{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+/*Sobre el café*/
+.aboutCoffee{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.aboutCoffee__textoCont{
+    width: 55%;
+    height: 100%;
+    background-color: #e8e1d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCoffee__texto{
+    width: 75%;
+    height: auto;
+
+}
+.aboutCoffee__texto h3{
+    font-size: 26px;
+}
+.aboutCoffee__texto p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.aboutCoffee__imgCont{
+    width: 45%;
+    height: 100%;
+    background-image: url("../img/cafes/capuccino.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Nuestros productos*/
+.aboutOurProducts{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.aboutOurProducts__infoCont{
+    width: 60%;
+    margin: auto;
+    height: 100%;
+    background-color: #67783b;
+    color: #fffdf5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutOurProducts__infoContText{
+    width: 70%;
+    font-size: 20px;
+}
+.aboutOurProducts__infoContText h3{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.aboutOurProducts__leftImg , .aboutOurProducts__rightImg{
+    width: 20%;
+    background-position: center;
+    background-size: cover;
+}
+.aboutOurProducts__leftImg{
+    background-image: url("../img/interior.jpg");
+}
+.aboutOurProducts__rightImg{
+    background-image: url("../img/interior2.jpg");
+}
+
+.aboutOurProducts__infoCont button{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 20px 15px 20px;
+    background-color: #fffdf5;
+    color: #402616;
+    margin-top: 50px;
+    border: none;
+}
+
+
+/*Nuestras ubicaciones*/
+.findUs{
+    height: 400px;
+    width: 100%;
+    background-image: url("../img/interior2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.findUs_text{
+    background-color: #402b1f;
+    color: #fffdf5;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    padding: 20px;
+}
+.findUs_btn{
+    margin: auto;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findUs_btn button{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 20px 15px 20px;
+    background-color: #fffdf5;
+    color: #402616;
+    border: none;
+}
+
+
+
+/*Trabaja con nosotros*/
+.workWithUs{
+    width: 100%;
+    height: 650px;
+    display: flex;
+}
+.workWithUs__Img{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+}
+.workWithUs__textCont{
+    width: 65%;
+    height: 100%;
+    background-color: #e8e1d0;
+    padding-top: 150px;
+}
+.workWithUs__text{
+    width: 80%;
+    height: auto;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    margin: auto;
+}
+.workWithUs__btnCont{
+    height: 20%;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+
+
+}
+.workWithUs__btn{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 15px 20px 15px 20px;
+    background-color: #402616;
+    color: #fffdf5 ;
+    border: none;
+}

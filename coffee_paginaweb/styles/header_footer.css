@@ -22,7 +22,6 @@ header{
     width: 100%;
     height: 100%;
     display: flex;
-
     font-weight: bold;
     font-size: 25px;
 }
@@ -30,20 +29,26 @@ header{
     font-family: 'Dancing Script',cursive;
 }
 .titleContainer__logo{
-    width: 40%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
 }
+.titleContainer__logo a{
+    text-decoration: none;
+    color: #fffdf5 ;
+    margin-left: 10px;
+}
+
 .userCont{
     width: 10%;
     height: 100%;
 }
 .userCont img{
-    height: 85%;
-    margin-top: 5px;
+    height: 80%;
+    margin-top: 10px;
 }
 .navContainer{
     width: 100%;
@@ -88,6 +93,11 @@ footer{
 .footerLogo h3{
     font-family: 'Dancing Script',cursive;
     font-size: 26px;
+    color: #fffdf5;
+    text-decoration: none;
+}
+.footerLogo a{
+    text-decoration: none;
 }
 .footerLinks {
     width: 55%;
@@ -107,9 +117,6 @@ footer{
     text-decoration: none;
     color: #fffdf5;
 }
-
-
-
 
 .footerSocialMedia_copyright{
     width: 25%;

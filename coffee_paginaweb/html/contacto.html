@@ -1,31 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/header_footer.css">
-    <link rel="stylesheet" href="../styles/contacto.css">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="titleContainer">
-            <div class="titleContainer__logo">
-                <img src="../img/logo.png" alt="">
-                <h2>Dreamy Scents</h2>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/header_footer.css" />
+        <link rel="stylesheet" href="../styles/contacto.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Contacto</title>
+    </head>
+    <body>
+        <header>
+            <div class="titleContainer">
+                <div class="titleContainer__logo">
+                    <img src="../img/logo.png" alt="logoImg" />
+                    <a href="../index.html">
+                        <h3>Dreamy Scents</h3>
+                    </a>
+                </div>
+                <div class="navContainer">
+                    <ul class="navContainer__list">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../html/productos.html">Carta</a></li>
+                        <li>
+                            <a href="../html/contacto.html">Encuéntranos</a>
+                        </li>
+                        <li><a href="#footer">Nosotros</a></li>
+                    </ul>
+                </div>
+                <div class="userCont">
+                    <a href="presupuesto.html"
+                        ><img src="../img/user2.svg" alt="userIcon" />
+                    </a>
+                </div>
             </div>
-            <div class="userCont">
-                <img src="../img/user.svg" alt="">
+        </header>
+
+        <main>
+            <div class="photoSection"></div>
+            <div class="infoSection">
+                <div class="infoSectionMapCont">
+                    <div class="mapCont">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.5382970477963!2d-3.692531293121537!3d40.41238004985283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226279d1f2fc1%3A0xfe003696314d9787!2sC.%20de%20Moreto%2C%2050%2C%20Retiro%2C%2028014%20Madrid!5e0!3m2!1ses!2ses!4v1724530826809!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
+                </div>
+                <div class="contactCont">
+                    <h2>Contacto</h2>
+                    <hr />
+                    <p class="contactCont__text">
+                        Ponte en contacto con nosotros por cualquiera de estos
+                        medios y estaremos encantados de atenderte:
+                    </p>
+
+                    <div class="contactInfoCont">
+                        <div class="contactInfoCont__ubication">
+                            <img
+                                src="../img/instagram-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <p>C. de Moreto, 50, 28053 Madrid</p>
+                        </div>
+                        <div class="contactInfoCont__email">
+                            <img
+                                src="../img/instagram-svgrepo-com.svg"
+                                alt=""
+                            />
+                            <p>info@dreamyscents.com</p>
+                        </div>
+                        <div class="contactInfoCont__number">
+                            <img
+                                src="../img/instagram-svgrepo-com.svg"
+                                alt=""
+                            />
+
+                            <p>+34 61 565 29 28</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="timeCont">
+                        <p>Lunes a viernes de 9:00h a 20:00h</p>
+                        <p>Sábados de 10:00h a 20:00h</p>
+                        <p>Domingos de 10:00h a 15:00h</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="navContainer">
-            <ul class="navContainer__list">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="">Carta</a></li>
-                <li><a href="html/contacto.html">Encuéntranos</a></li>
-                <li><a href="">Nosotros</a></li>
-            </ul>
-        </div>
-    </header>
-</body>
+        </main>
+
+        <footer id="footer">
+            <div class="footerLogo">
+                <div class="footerLogo__img">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="footerLogo__name">
+                    <a href="../index.html">
+                        <h3>Dreamy Scents</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="footerLinks">
+                <a href="presupuesto.html">Nosotros</a>
+                <a href="productos.html">Carta</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="contacto.html">Encuéntranos</a>
+                <a href="presupuesto.html">Trabaja con nosotros</a>
+                <a href="">Política y Cookies</a>
+            </div>
+            <div class="footerSocialMedia_copyright">
+                <div class="footerSocialMedia_copyright__img">
+                    <a href=""
+                        ><img src="../img/instagram-svgrepo-com.svg" alt=""
+                    /></a>
+                    <a href=""
+                        ><img src="../img/facebook-svgrepo-com.svg" alt=""
+                    /></a>
+                </div>
+                <div class="footerSocialMedia_copyright__copyright">
+                    <p>©Todos los derechos reservados</p>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

@@ -1,95 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/header_footer.css">
-    <link rel="stylesheet" href="../styles/presupuesto.css">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/header_footer.css" />
+        <link rel="stylesheet" href="../styles/presupuesto.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap"
+            rel="stylesheet"
+        />
 
-    <title>Presupuesto</title>
-</head>
-<body>
-    <header>
-        <div class="titleContainer">
-            <div class="titleContainer__logo">
-                <img src="../img/logo.png" alt="">
-                <h3>Dreamy Scents</h3>
-            </div>
-            <div class="navContainer">
-                <ul class="navContainer__list">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="">Carta</a></li>
-                    <li><a href="html/contacto.html">Encuéntranos</a></li>
-                    <li><a href="">Nosotros</a></li>
-                </ul>
-            </div>
-            <div class="userCont">
-                <a href="html/presupuesto.html"><img src="../img/user2.svg" alt=""></a>
-            </div>
-        </div>
-        
-    </header>
-
-    <main>
-        <h2 class="formTitle">Contáctanos para más</h2>
-        <div class="formContainer">
-            <div class="formTextCont">
-                <hr>
-                <div class="formText">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit ad. Laborum fugiat, eos facilis suscipit placeat fuga odio non et rerum excepturi hic praesentium inventore nulla fugit debitis nostrum?</p>
+        <title>Presupuesto</title>
+    </head>
+    <body>
+        <header>
+            <div class="titleContainer">
+                <div class="titleContainer__logo">
+                    <img src="../img/logo.png" alt="logoImg" />
+                    <a href="../index.html">
+                        <h3>Dreamy Scents</h3>
+                    </a>
                 </div>
-                <hr>
-            </div>
-            <form action="#" method="post">
-                <input type="text" id="name" name="name" placeholder="Nombre" required>
-    
-                <input type="email" id="email" name="email" placeholder="Email" required>
-    
-                <input type="number" id="number" name="number" placeholder="Teléfono" required>
-    
-                <textarea id="textbox" name="textbox" rows="4" placeholder="Solicite más información..." ></textarea>
-    
-                <div class="checkboxContainer">
-                    <input type="checkbox" id="privacy" name="privacy" required>
-                    <label for="privacy">Autorizo la recogida y el tratamiento de los datos personales facilitados en el presente formulario para los fines descritos en el mismo y en la <a href="#" target="_blank">Política de Privacidad</a></label>
+                <div class="navContainer">
+                    <ul class="navContainer__list">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../html/productos.html">Carta</a></li>
+                        <li><a href="../html/contacto.html">Encuéntranos</a></li>
+                        <li><a href="#footer">Nosotros</a></li>
+                    </ul>
                 </div>
-    
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </main>
-        
-    
+                <div class="userCont">
+                    <a href="presupuesto.html"
+                        ><img src="../img/user2.svg" alt="userIcon"/>
+                    </a>
+                </div>
+            </div>
+        </header>
 
-    <footer>
-        <div class="footerLogo">
-            <div class="footerLogo__img">
-                <img src="../img/logo.png" alt="">
+        <main>
+            <h2 class="formTitle">Contáctanos para más</h2>
+            <div class="formContainer">
+                <div class="formTextCont">
+                    <hr />
+                    <div class="formText">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Neque, odit ad. Laborum fugiat, eos facilis
+                            suscipit placeat fuga odio non et rerum excepturi
+                            hic praesentium inventore nulla fugit debitis
+                            nostrum?
+                        </p>
+                    </div>
+                    <hr />
+                </div>
+                <form action="#" method="post">
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Nombre"
+                        required
+                    />
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email"
+                        required
+                    />
+
+                    <input
+                        type="number"
+                        id="number"
+                        name="number"
+                        placeholder="Teléfono"
+                        required
+                    />
+
+                    <textarea
+                        id="textbox"
+                        name="textbox"
+                        rows="4"
+                        placeholder="Solicite más información..."
+                    ></textarea>
+
+                    <div class="checkboxContainer">
+                        <input
+                            type="checkbox"
+                            id="privacy"
+                            name="privacy"
+                            required
+                        />
+                        <label for="privacy"
+                            >Autorizo la recogida y el tratamiento de los datos
+                            personales facilitados en el presente formulario
+                            para los fines descritos en el mismo y en la
+                            <a href="#" target="_blank"
+                                >Política de Privacidad</a
+                            ></label
+                        >
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
-            <div class="footerLogo__name">
-                <h3>Dreamy Scents</h3>
+        </main>
+
+        <footer id="footer">
+            <div class="footerLogo">
+                <div class="footerLogo__img">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="footerLogo__name">
+                    <a href="../index.html">
+                        <h3>Dreamy Scents</h3>
+                    </a>
+                </div>
             </div>
-            
-        </div>
-        <div class="footerLinks">
-            <a href="">Nosotros</a>
-            <a href="">Carta</a>
-            <a href="">Contacto</a>
-            <a href="">Encuéntranos</a>
-            <a href="">Trabaja con nosotros</a>
-            <a href="">Política y Cookies</a>
-        </div>
-        <div class="footerSocialMedia_copyright">
-            <div class="footerSocialMedia_copyright__img">
-                <a href=""><img src="../img/instagram-svgrepo-com.svg" alt=""></a>
-                <a href=""><img src="../img/facebook-svgrepo-com.svg" alt=""></a>  
+            <div class="footerLinks">
+                <a href="presupuesto.html">Nosotros</a>
+                <a href="productos.html">Carta</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="contacto.html">Encuéntranos</a>
+                <a href="presupuesto.html">Trabaja con nosotros</a>
+                <a href="">Política y Cookies</a>
             </div>
-            <div class="footerSocialMedia_copyright__copyright">
-                <p>©Todos los derechos reservados</p>
+            <div class="footerSocialMedia_copyright">
+                <div class="footerSocialMedia_copyright__img">
+                    <a href=""
+                        ><img src="../img/instagram-svgrepo-com.svg" alt=""
+                    /></a>
+                    <a href=""
+                        ><img src="../img/facebook-svgrepo-com.svg" alt=""
+                    /></a>
+                </div>
+                <div class="footerSocialMedia_copyright__copyright">
+                    <p>©Todos los derechos reservados</p>
+                </div>
             </div>
-            
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>

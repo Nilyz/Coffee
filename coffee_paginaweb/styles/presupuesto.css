@@ -94,3 +94,10 @@ button {
     color: #fffdf5;
     border: none;
 }
+
+button:hover{
+    background-color: #e8e1d0;
+    color: #402b1f;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}

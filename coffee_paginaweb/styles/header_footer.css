@@ -75,7 +75,7 @@ header {
     text-decoration: none;
     color: white;
 }
-.navContainer__list a:hover{
+.navContainer__list a:hover, .titleContainer__logo a:hover{
     color: #402b1f;
     transition: all 0.2s ease;
 }

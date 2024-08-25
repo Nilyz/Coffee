@@ -7,10 +7,10 @@ main {
 /*Sección de contenido*/
 
 .landing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/interior3.jpg");
-    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/cafeteria.jpg");
+    background-position: center bottom ;
     background-repeat: none;
-    background-size: cover;
+    background-size: 100% 200%;
     background-attachment: fixed;
     width: 100%;
     height: 120vh;
@@ -29,11 +29,12 @@ main {
     font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 120px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .titleLogo p {
     font-weight: bold;
     font-size: 35px;
+    margin-bottom: 100px;
 }
 
 /*Sobre el café*/
@@ -102,10 +103,10 @@ main {
     background-size: cover;
 }
 .aboutOurProducts__leftImg {
-    background-image: url("../img/interior.jpg");
+    background-image: url("../img/frutoCafe.webp");
 }
 .aboutOurProducts__rightImg {
-    background-image: url("../img/interior2.jpg");
+    background-image: url("../img/preparacionCafe.webp");
 }
 
 .aboutOurProducts__infoCont button {
@@ -116,6 +117,12 @@ main {
     color: #402616;
     margin-top: 50px;
     border: none;
+}
+.aboutOurProducts__infoCont button:hover{
+    background-color: #402b1f;
+    color: #fffdf5;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }
 
 /*Nuestras ubicaciones*/
@@ -153,6 +160,12 @@ main {
     color: #402616;
     border: none;
 }
+.findUs_btn button:hover{
+    background-color: #402b1f;
+    color: #fffdf5;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
 
 /*Trabaja con nosotros*/
 .workWithUs {
@@ -163,7 +176,7 @@ main {
 .workWithUs__Img {
     width: 35%;
     height: 100%;
-    background-color: black;
+    background-color: #402b1f;
 }
 .workWithUs__Img img{
     height: 100%;
@@ -195,4 +208,11 @@ main {
     background-color: #402616;
     color: #fffdf5;
     border: none;
+}
+
+.workWithUs__btn:hover{
+    background-color: #67783b;
+    color: #fffdf5;
+    transition: all 0.2s ease;
+    cursor: pointer;
 }

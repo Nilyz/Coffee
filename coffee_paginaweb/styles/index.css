@@ -1,5 +1,4 @@
-
-main{
+main {
     background-image: url("../img/interior3.jpg");
     background-position: center;
     background-repeat: none;
@@ -11,7 +10,7 @@ main{
 
 /*Sección de contenido*/
 
-.landing{
+.landing {
     width: 100%;
     height: 120vh;
     display: flex;
@@ -19,30 +18,30 @@ main{
     align-items: center;
     color: #fffdf5;
 }
-.titleLogo{
+.titleLogo {
     margin: auto;
     width: 65%;
     height: auto;
     text-align: center;
 }
-.titleLogo h1{
-    font-family: 'Dancing Script',cursive;
+.titleLogo h1 {
+    font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 120px;
     margin-bottom: 60px;
 }
-.titleLogo p{
+.titleLogo p {
     font-weight: bold;
     font-size: 35px;
 }
 
 /*Sobre el café*/
-.aboutCoffee{
+.aboutCoffee {
     width: 100%;
     height: 550px;
     display: flex;
 }
-.aboutCoffee__textoCont{
+.aboutCoffee__textoCont {
     width: 55%;
     height: 100%;
     background-color: #e8e1d0;
@@ -50,19 +49,18 @@ main{
     justify-content: center;
     align-items: center;
 }
-.aboutCoffee__texto{
+.aboutCoffee__texto {
     width: 75%;
     height: auto;
-
 }
-.aboutCoffee__texto h3{
+.aboutCoffee__texto h3 {
     font-size: 26px;
 }
-.aboutCoffee__texto p{
+.aboutCoffee__texto p {
     font-size: 20px;
     margin-top: 30px;
 }
-.aboutCoffee__imgCont{
+.aboutCoffee__imgCont {
     width: 45%;
     height: 100%;
     background-image: url("../img/cafes/capuccino.webp");
@@ -72,43 +70,44 @@ main{
 }
 
 /*Nuestros productos*/
-.aboutOurProducts{
+.aboutOurProducts {
     width: 100%;
     height: 450px;
     display: flex;
 }
-.aboutOurProducts__infoCont{
+.aboutOurProducts__infoCont {
     width: 60%;
     margin: auto;
     height: 100%;
     background-color: #67783b;
-    color: #fffdf5 ;
+    color: #fffdf5;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.aboutOurProducts__infoContText{
+.aboutOurProducts__infoContText {
     width: 70%;
     font-size: 20px;
 }
-.aboutOurProducts__infoContText h3{
+.aboutOurProducts__infoContText h3 {
     font-size: 26px;
     margin-bottom: 30px;
 }
-.aboutOurProducts__leftImg , .aboutOurProducts__rightImg{
+.aboutOurProducts__leftImg,
+.aboutOurProducts__rightImg {
     width: 20%;
     background-position: center;
     background-size: cover;
 }
-.aboutOurProducts__leftImg{
+.aboutOurProducts__leftImg {
     background-image: url("../img/interior.jpg");
 }
-.aboutOurProducts__rightImg{
+.aboutOurProducts__rightImg {
     background-image: url("../img/interior2.jpg");
 }
 
-.aboutOurProducts__infoCont button{
+.aboutOurProducts__infoCont button {
     font-weight: bold;
     font-size: 14px;
     padding: 15px 20px 15px 20px;
@@ -118,9 +117,8 @@ main{
     border: none;
 }
 
-
 /*Nuestras ubicaciones*/
-.findUs{
+.findUs {
     height: 400px;
     width: 100%;
     background-image: url("../img/interior2.jpg");
@@ -129,7 +127,7 @@ main{
     background-repeat: none;
     background-size: cover;
 }
-.findUs_text{
+.findUs_text {
     background-color: #402b1f;
     color: #fffdf5;
     width: 40%;
@@ -138,7 +136,7 @@ main{
     font-size: 24px;
     padding: 20px;
 }
-.findUs_btn{
+.findUs_btn {
     margin: auto;
     margin-top: 180px;
     display: flex;
@@ -146,7 +144,7 @@ main{
     align-items: center;
 }
 
-.findUs_btn button{
+.findUs_btn button {
     font-weight: bold;
     font-size: 14px;
     padding: 15px 20px 15px 20px;
@@ -155,26 +153,24 @@ main{
     border: none;
 }
 
-
-
 /*Trabaja con nosotros*/
-.workWithUs{
+.workWithUs {
     width: 100%;
     height: 650px;
     display: flex;
 }
-.workWithUs__Img{
+.workWithUs__Img {
     width: 35%;
     height: 100%;
     background-color: black;
 }
-.workWithUs__textCont{
+.workWithUs__textCont {
     width: 65%;
     height: 100%;
     background-color: #e8e1d0;
     padding-top: 150px;
 }
-.workWithUs__text{
+.workWithUs__text {
     width: 80%;
     height: auto;
     font-size: 28px;
@@ -182,19 +178,17 @@ main{
     text-align: left;
     margin: auto;
 }
-.workWithUs__btnCont{
+.workWithUs__btnCont {
     height: 20%;
     width: 80%;
     margin: auto;
     margin-top: 100px;
-
-
 }
-.workWithUs__btn{
+.workWithUs__btn {
     font-weight: bold;
     font-size: 18px;
     padding: 15px 20px 15px 20px;
     background-color: #402616;
-    color: #fffdf5 ;
+    color: #fffdf5;
     border: none;
 }

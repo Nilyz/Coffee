@@ -7,12 +7,19 @@ main {
 .photoSection {
     width: 100%;
     height: 55%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../img/fondo_madrid.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/fondo_madrid.jpg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
-
+.photoSection h2 {
+    font-family: "Dancing Script", cursive;
+}
 .infoSection {
     width: 100%;
     height: 45%;
@@ -31,8 +38,9 @@ main {
     width: 75%;
     border-radius: 3px;
     overflow: hidden;
+    border: 3px solid #fffdf5;
 }
-iframe{
+iframe {
     height: 100%;
     width: 100%;
 }

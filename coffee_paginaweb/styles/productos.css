@@ -1,0 +1,136 @@
+main {
+    color: #402b1f;
+}
+
+.frontSection {
+    border: 2px solid black;
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("../img/desayuno.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+    color: #fffdf5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+}
+.frontSection h2 {
+    font-family: "Dancing Script", cursive;
+}
+.coffeeSection,
+.teaSection,
+.dessertSection {
+    height: 900px;
+    width: 100%;
+}
+
+.coffeeSectionInfo,
+.teaSectionInfo,
+.dessertSectionInfo {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.coffeeSectionInfoBackground,
+.teaSectionInfoBackground,
+.dessertSectionInfoBackground {
+    position: absolute;
+    filter: blur(10px);
+    width: 105%;
+}
+.infoCard {
+    position: absolute;
+    height: 55%;
+    width: 55%;
+    display: flex;
+    overflow: hidden;
+    background-color: rgba(245, 245, 220, 0.676);
+    border-radius: 85px 0 0 0;
+    top: 200px;
+}
+
+.sectionInfo h3 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 100px;
+    color: #fffdf5;
+}
+.coffeeSectionInfoCard__img,
+.teaSectionInfoCard__img,
+.dessertSectionInfoCard__img {
+    height: 100%;
+    width: 100%;
+    width: 40%;
+    border-radius: 80px 0 80px 0;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+}
+.infoCard img {
+    height: 105%;
+    width: auto;
+    position: relative;
+    left: -200px;
+}
+
+.coffeeSectionInfoCard__text,
+.teaSectionInfoCard__text,
+.dessertSectionInfoCard__text {
+    height: 100%;
+    width: 60%;
+    font-size: 22px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coffeeSectionProducts,
+.teaSectionProducts,
+.dessertSectionProducts {
+    background-color: #402b1f;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px 0 150px;
+    color: #e8e1d0;
+}
+.teaSectionProducts {
+    background-color: #374224ec;
+}
+.dessertSectionProducts {
+    background-color: #e8e1d0;
+    color: #402b1f;
+}
+.product {
+    height: 200px;
+    width: 180px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.product p {
+    font-size: 20px;
+    margin-top: 15px;
+}

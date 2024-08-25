@@ -50,6 +50,11 @@ header {
 .userCont img {
     height: 80%;
     margin-top: 10px;
+    border-radius: 100%;
+}
+.userCont img:hover{
+    background-color: #402b1f;
+    transition: all 0.2s ease;
 }
 .navContainer {
     width: 100%;
@@ -69,6 +74,10 @@ header {
 .navContainer__list a {
     text-decoration: none;
     color: white;
+}
+.navContainer__list a:hover{
+    color: #402b1f;
+    transition: all 0.2s ease;
 }
 
 /*Footer*/
@@ -99,6 +108,11 @@ footer {
 .footerLogo a {
     text-decoration: none;
 }
+.footerLogo:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
 .footerLinks {
     width: 55%;
     height: 100%;
@@ -117,6 +131,10 @@ footer {
     text-decoration: none;
     color: #fffdf5;
 }
+.footerLinks a:hover{
+    color: #402b1f;
+    transition: all 0.2s ease;
+}
 
 .footerSocialMedia_copyright {
     width: 25%;
@@ -130,8 +148,15 @@ footer {
 }
 .footerSocialMedia_copyright img {
     height: 45px;
+    width: 45px;
     margin-left: 10px;
 }
+.footerSocialMedia_copyright img:hover{
+    height: 43px;
+    transition: all 0.2s ease;
+}
+
 .footerSocialMedia_copyright__copyright p {
     font-size: 12px;
 }
+

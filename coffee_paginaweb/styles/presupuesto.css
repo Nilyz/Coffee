@@ -6,7 +6,7 @@ main {
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url("../img/interior3.jpg");
+        url("../img/interior5.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

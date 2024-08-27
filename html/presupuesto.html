@@ -64,6 +64,7 @@
                         id="name"
                         name="name"
                         placeholder="Nombre"
+                        minlength="3"
                         required
                     />
 
@@ -76,10 +77,11 @@
                     />
 
                     <input
-                        type="number"
+                        type="tel"
                         id="number"
                         name="number"
                         placeholder="Teléfono"
+                        pattern="[0-9]{9}"
                         required
                     />
 
@@ -88,6 +90,7 @@
                         name="textbox"
                         rows="4"
                         placeholder="Solicite más información..."
+                        minlength="10"
                     ></textarea>
 
                     <div class="checkboxContainer">

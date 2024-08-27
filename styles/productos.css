@@ -9,7 +9,6 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url("../img/desayuno.jpg");
     background-size: cover;
-    background-position: cover;
     background-attachment: fixed;
     color: #fffdf5;
     display: flex;

@@ -9,7 +9,7 @@ main {
 .landing {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/cafeteria.jpg");
     background-position: center bottom ;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 100% 200%;
     background-attachment: fixed;
     width: 100%;
@@ -111,7 +111,7 @@ main {
     background-image: url("../img/preparacionCafe.webp");
 }
 
-.aboutOurProducts__infoCont button {
+.aboutOurProducts__infoCont .button {
     font-weight: bold;
     font-size: 14px;
     padding: 15px 20px 15px 20px;
@@ -119,8 +119,9 @@ main {
     color: #402616;
     margin-top: 50px;
     border: none;
+    text-decoration: none;
 }
-.aboutOurProducts__infoCont button:hover{
+.aboutOurProducts__infoCont .button:hover{
     background-color: #402616;
     color: #fffdf5;
     transition: all 0.2s ease;
@@ -134,7 +135,7 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../img/fondo_madrid.jpg");
     background-attachment: fixed;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .findUs_text {
@@ -154,15 +155,16 @@ main {
     align-items: center;
 }
 
-.findUs_btn button {
+.findUs_btn .button {
     font-weight: bold;
     font-size: 14px;
     padding: 15px 20px 15px 20px;
     background-color: #fffdf5;
     color: #402616;
     border: none;
+    text-decoration: none;
 }
-.findUs_btn button:hover{
+.findUs_btn .button:hover{
     background-color: #402616;
     color: #fffdf5;
     transition: all 0.2s ease;
@@ -204,7 +206,7 @@ main {
     height: 20%;
     width: 80%;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .workWithUs__btn {
     font-weight: bold;
@@ -213,6 +215,7 @@ main {
     background-color: #402616;
     color: #fffdf5;
     border: none;
+    text-decoration: none;
 }
 
 .workWithUs__btn:hover{

@@ -9,6 +9,15 @@
     scroll-behavior: smooth;
 }
 
+body{
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+main{
+    margin-bottom: 130px;
+}
 /*Header*/
 header {
     position: fixed;
@@ -25,6 +34,9 @@ header {
     display: flex;
     font-weight: bold;
     font-size: 25px;
+}
+.titleContainer img{
+    height: 45px;
 }
 .titleContainer h3 {
     font-family: "Dancing Script", cursive;
@@ -87,6 +99,8 @@ footer {
     height: 130px;
     background-color: #60743cec;
     display: flex;
+    position: absolute;
+    bottom: 0;
 }
 
 .footerLogo {
@@ -98,7 +112,9 @@ footer {
     flex-wrap: wrap;
     flex-direction: column;
 }
-
+.footerLogo img{
+    height: 50px;
+}
 .footerLogo h3 {
     font-family: "Dancing Script", cursive;
     font-size: 26px;

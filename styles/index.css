@@ -1,5 +1,5 @@
-main {
 
+main {
     font-family: "Outfit", sans-serif;
     color: #402616;
 }
@@ -224,3 +224,4 @@ main {
     transition: all 0.2s ease;
     cursor: pointer;
 }
+
